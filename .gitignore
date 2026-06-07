@@ -1,0 +1,18 @@
+# Environment variables (APIキーなど機密情報)
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Claude Code internal files
+.agents/
+.claude/
+skills-lock.json
+
+# OS
+.DS_Store
